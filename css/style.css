@@ -1,0 +1,107 @@
+/* HELPERS */
+
+.flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.canvas-container {
+    border-style: double;
+    border-radius: 10px;
+    flex-direction: column;
+    background-color: rgba(199, 228, 231, 0.66);
+    margin: auto;
+    margin-block-start: 50px;
+    width: 70vw;
+    height: 75vh;
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.config-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex-direction: row;
+}
+
+.config-top {
+    margin-inline-start: 6px !important;
+    margin-inline-end: 30px !important;
+}
+
+.btn {
+    box-shadow: 0px 0px 0px 2px #9fb4f2;
+    background: linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+    background-color: #7892c2;
+    border-radius: 10px;
+    border: 1px solid #4e6096;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 13px;
+    padding: 5px 10px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #283966;
+    margin-inline-start: 15px;
+}
+
+.btn:hover {
+    background: linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+    background-color: #476e9e;
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
+}
+
+.config {
+    border: 2px solid #ffffff;
+    margin-inline-start: 15px;
+}
+
+.export {
+    margin-inline-start: 10px;
+    margin-block-start: auto;
+    margin-block-end: auto;
+}
+
+.user-msg {
+    margin-block-end: 5px;
+    margin-block-start: 10px;
+}
+
+.file-input {
+    padding: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.shape-select {
+    margin-inline-end: 30px;
+}
+
+label {
+    margin: auto;
+}
